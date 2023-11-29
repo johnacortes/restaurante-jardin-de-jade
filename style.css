@@ -1,0 +1,168 @@
+.container-head {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./imagenes/img-restaurant2.jpg");
+    background-position: cover;
+    background-position: center;
+    height: 600px;
+    margin-top: 0%;
+}
+
+.title-head {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 7rem;
+    color: black;
+    padding-top: 100px;
+    margin-left: 70px;
+}
+
+.parrafo-head {
+    margin-left: 100px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 700;
+}
+
+ .container-platos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #B6BBC4;
+    height: 500px;
+ }
+
+ .platos {
+    display: flex;
+    width: 350px;
+    max-width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10%;
+ }
+
+ .arroz {
+    background-image: url("./imagenes/img-arroz.jpg");
+    background-position: cover;
+    background-position: center;
+ }
+
+ .sushi {
+    background-image: url("./imagenes/img-shushi.jpg");
+    background-position: cover;
+    background-position: center;
+ }
+
+ .wasabi {
+    background-image: url("./imagenes/img-wasabi.jpg");
+    background-position: cover;
+    background-position: center;
+    background-size: 100%;
+ } 
+ 
+ .title-plato {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4rem;
+    font-weight: 1200;
+    color: black;
+ }  
+
+ .container-box-precios {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+    gap: 15px;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .box-precio {
+    display: flex;
+    width: 250px;
+    max-width: 300px;
+    min-width: 200px;
+    height: 350px;
+    background-color: #D2E3C8;
+    margin-top: 50px;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Bree Serif', serif;
+ }
+ 
+ .title-plato2 {
+    font-size: 20px;
+      font-weight: bold;
+      margin: o;
+      padding: 0;
+      margin-bottom: 10px;
+ }
+
+ .title-precio {
+    font-size: 48px;
+      font-weight: bold;
+      margin: 0;
+      padding: 5px;
+ }
+
+ .beneficios {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+
+ .beneficios li {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+ }
+
+ .button {
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 20%;
+    border: 0;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 800px) {
+    .container-box-precios {
+        display: flex;
+        flex-direction: column;
+        height: 1700px;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-platos {
+        display: flex;
+        flex-direction: column;
+        height: 1300px;
+    }
+  }
+
+  .formulario {
+    display: flex;
+    height: 300px;
+    background-color: lavender;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+
+  .button-guardar {
+    background-color: grey;
+    border-radius: 10%;
+    color: white;
+    width: 100px;
+    font-size: 1rem;
+  }
