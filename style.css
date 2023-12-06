@@ -151,6 +151,29 @@
     }
   }
 
+  .container-checkbox {
+   display: flex;
+   height: 250px;
+   min-width: 300px;
+   justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    flex-direction: column;
+  }
+
+.btn-checkbox {
+   width: 250px;
+   min-width: 250px;
+   font-size: 1.5rem;
+   margin-top: 10px;
+  }
+
+  .input-checkbox {
+   width: 20px;
+   height: 20px;
+  }
+
   .formulario {
     display: flex;
     height: 300px;
